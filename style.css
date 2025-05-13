@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'Space-Grotesk';
+    src: url(/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf);
+}
+
+* {
+    background-color: rgb(250, 250, 250);
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Space-Grotesk';
+    cursor: url(/Images/BlueDot.svg) 10 10, auto;
+}
+
+/* homepage */
+
+.homepage {
+    margin: 25px 25px;
+}
+
+.menu {
+    width: 25%;
+    height: 100vh;
+    float: left;
+    overflow: hidden;
+}
+
+.text {
+    position: fixed;
+}
+
+.text a {
+    text-decoration: none;
+    color: #111111;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.text a:hover {
+    color: #0000FF;
+}
+
+.content {
+    width: 75%;
+    position: relative;
+}
+
+.content img {
+    position: absolute;
+    transform: translateX(300px);
+    filter: brightness(0.7);
+}
+
+.content a:hover img {
+    z-index: 10;
+    filter: brightness(1);
+    transition: 0.3s;
+}
+
+.project1 {
+    top: 0px;
+    left: 0px;
+    z-index: 4;
+}
+
+.project2 {
+    top: 100px;
+    left: 150px;
+    z-index: 3;
+}
+
+.project3 {
+    top: 200px;
+    left: 250px;
+    z-index: 2;
+}
+
+.project4 {
+    top: 300px;
+    left: 350px;
+    z-index: 1;
+}
+
+/* about me page */
+
+.about-text {
+    width: 75%;
+}
+
+.credits {
+    font-size: 16px;
+    font-weight: 250;
+    margin-top: 350px;
+}
+
+.about-text p {
+    width: 90%;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.links {
+    text-decoration: underline;
+    color: #111111;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.links:hover {
+    color: #0000FF;
+}
+
+/* individual projects page */
+
+.description {
+    width: 20%;
+    position: fixed;
+    bottom: 35px;
+    left: 25px;
+    text-align: left;
+}
+
+.description p {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.button {
+    text-decoration: none;
+    color: #111111;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.button:hover {
+    color: #0000FF;   
+}
+
+.projects {
+    width: 75%;
+    float: left;
+}
+
+.projects img {
+    margin-bottom: 25px;
+}
