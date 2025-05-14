@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Space-Grotesk';
-    src: url(fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf) format('truetype');
+    src: url('./fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Comrade Display';
-    src: url('fonts/Comrade-Display.woff') format('woff');
+    src: url('./fonts/Comrade-Display.woff') format('woff');
 }
 
 * {
