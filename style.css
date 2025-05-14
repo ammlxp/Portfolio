@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'Comrade Display';
-    src: url('Comrade-Display copy.otf') format('woff');
+    src: url('Comrade-Display.otf') format('opentype');
 }
 
 * {
