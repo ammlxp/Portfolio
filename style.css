@@ -13,7 +13,7 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Space-Grotesk';
-    cursor: url('Images/BlueDot.svg') 10 10, auto;
+    cursor: url('./Images/BlueDot.svg') 10 10, auto;
 }
 
 /* homepage */
