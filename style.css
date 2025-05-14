@@ -3,6 +3,11 @@
     src: url(/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: 'Comrade Display';
+    src: url('Comrade-Display copy.otf') format('woff');
+}
+
 * {
     background-color: rgb(250, 250, 250);
     margin: 0px;
@@ -139,8 +144,31 @@
 .projects {
     width: 75%;
     float: left;
+    margin-bottom: 25px;
 }
 
 .projects img {
     margin-bottom: 25px;
+}
+
+.projects video {
+    margin-bottom: 25px;
+}
+
+textarea {
+    font-family: 'Comrade Display';
+    font-size: 80px;
+    color: #f4f4f0;
+    background-color: #cd140b;
+    border: none;
+    padding: 30px 30px;
+    resize: none;
+    max-width: 1020px;
+    height: 400px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+textarea::placeholder {
+    color: #f4f4f0;
 }
