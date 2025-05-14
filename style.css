@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Space-Grotesk';
-    src: url(/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf);
+    src: url(fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'Comrade Display';
-    src: url('Comrade-Display.otf') format('opentype');
+    src: url('fonts/Comrade-Display.otf') format('opentype');
 }
 
 * {
@@ -13,7 +13,7 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Space-Grotesk';
-    cursor: url(/Images/BlueDot.svg) 10 10, auto;
+    cursor: url('Images/BlueDot.svg') 10 10, auto;
 }
 
 /* homepage */
