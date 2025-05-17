@@ -8,13 +8,200 @@
     src: url('./fonts/Comrade-Display.woff') format('woff');
 }
 
-* {
+body {
     background-color: rgb(250, 250, 250);
     margin: 0px;
     padding: 0px;
     font-family: 'Space-Grotesk';
     cursor: url('./Images/BlueDot.svg') 10 10, auto;
 }
+
+/* portrait mode for phones */
+
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+
+    /* div.homepage div.menu {
+        width: 100%;
+        height: 60px;
+        float: left;
+        overflow: hidden;
+    }      
+
+    div.homepage div.content {
+        width: 100%;
+        height: 500px;
+    }
+
+    div.homepage div.content img {
+        position: static;
+    }
+
+    div.homepage div.content .project1 {
+        top: 0px;
+        left: 0px;
+    }
+
+    div.homepage div.content .project2 {
+        top: 0px;
+        left: 0px;
+    }
+
+    div.homepage div.content .project3 {
+        top: 0px;
+        left: 0px;
+    }
+
+    div.homepage div.content .project4 {
+        top: 0px;
+        left: 0px;
+    } */
+
+    /* homepage */
+
+    div.homepage {
+        margin: 25px 25px;
+    }
+
+    div.homepage div.menu {
+        width: 100%;
+        height: 80px;
+        float: left;
+        overflow: visible;
+    }
+
+    div.homepage div.content {
+        width: 75%;
+        position: fixed;
+        bottom: 40px;
+    }
+
+    div.homepage div.content img {
+        height: 150px;
+        position: relative;
+        transform: translateX(0px);
+        filter: brightness(1);
+    }
+
+    div.homepage div.content img.project1 {
+        top: 0px;
+        left: 0px;
+    }
+
+    div.homepage div.content img.project2 {
+        top: 10px;
+        left: 15px;
+    }
+
+    div.homepage div.content img.project3 {
+        top: 20px;
+        left: 30px;
+    }
+
+    div.homepage div.content img.project4 {
+        top: 30px;
+        left: 45px;
+    }
+
+    /* about me page */
+
+    .about-text {
+        width: 75%;
+    }
+
+    .credits {
+        font-size: 16px;
+        font-weight: 250;
+        margin-top: 350px;
+    }
+
+    .about-text p {
+        width: 90%;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .links {
+        text-decoration: underline;
+        color: #111111;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .links:hover {
+        color: #0000FF;
+    }
+
+    /* individual projects page */
+
+    .description {
+        width: 20%;
+        position: fixed;
+        bottom: 35px;
+        left: 25px;
+        text-align: left;
+    }
+
+    .description p {
+        font-size: 16px;
+        font-weight: 300;
+        text-align: left;
+    }
+
+    .button {
+        text-decoration: none;
+        color: #111111;
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+    .button:hover {
+        color: #0000FF;   
+    }
+
+    .projects {
+        width: 75%;
+        float: left;
+        margin-bottom: 25px;
+    }
+
+    .projects img {
+        margin-bottom: 25px;
+    }
+
+    .projects video {
+        margin-bottom: 25px;
+    }
+
+    textarea {
+        font-family: 'Comrade Display';
+        font-size: 80px;
+        color: #f4f4f0;
+        background-color: #cd140b;
+        border: none;
+        padding: 30px 30px;
+        resize: none;
+        max-width: 1020px;
+        height: 400px;
+        outline: none;
+        box-sizing: border-box;
+    }
+
+    textarea::placeholder {
+        color: #f4f4f0;
+    }
+
+}
+
+/* landscape mode for phones */
+
+/* @media only screen and (max-width: 700px) and (orientation: landscape) {
+
+  body {
+    background-color: rgb(82, 143, 35);
+  }
+
+
+} */
 
 /* homepage */
 
