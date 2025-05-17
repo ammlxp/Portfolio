@@ -135,11 +135,20 @@ body {
         margin-bottom: 15px;
     }
 
-    div.homepage div.projects video {
-        position: relative;
+    div.homepage div.projects div.vimeo-wrapper {
         width: 100%;
-        height: auto; 
+        height: auto;
         margin-bottom: 15px;
+        position: relative;
+        padding-top: 39.06%; /* Aspect ratio (based on original setup) */
+    }
+
+    div.homepage div.projects div.vimeo-wrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
     }
 
     div.homepage div.projects textarea {
@@ -283,10 +292,20 @@ body {
         margin-bottom: 15px;
     }
 
-    div.homepage div.projects video {
+    div.homepage div.projects div.vimeo-wrapper {
         width: 100%;
-        height: auto; 
+        height: auto;
         margin-bottom: 15px;
+        position: relative;
+        padding-top: 39.06%; /* Aspect ratio (based on original setup) */
+    }
+
+    div.homepage div.projects div.vimeo-wrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
     }
 
     div.homepage div.projects textarea {
@@ -441,8 +460,19 @@ body {
     margin-bottom: 25px;
 }
 
-.projects video {
-    margin-bottom: 25px;
+.vimeo-wrapper {
+  width: 1020px;
+  margin-bottom: 25px;
+  position: relative;
+  padding-top: 39.06%; /* Aspect ratio (based on original setup) */
+}
+
+.vimeo-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 textarea {
