@@ -66,31 +66,27 @@ body {
 
     /* about me page */
 
-    .about-text {
-        width: 75%;
+    div.homepage div.about-text {
+        width: 100%;
     }
 
-    .credits {
-        font-size: 16px;
+    div.homepage p.credits {
+        font-size: 14px;
         font-weight: 250;
-        margin-top: 350px;
+        margin-top: 20px;
     }
 
-    .about-text p {
+    div.homepage div.about-text p {
         width: 90%;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 300;
     }
 
-    .links {
+    div.homepage div.about-text a.links {
         text-decoration: underline;
         color: #111111;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 300;
-    }
-
-    .links:hover {
-        color: #0000FF;
     }
 
     /* individual projects page */
