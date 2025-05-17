@@ -153,14 +153,140 @@ body {
 
 /* landscape mode for phones */
 
-/* @media only screen and (max-width: 700px) and (orientation: landscape) {
+@media only screen and (max-width: 950px) and (orientation: landscape) {
 
-  body {
-    background-color: rgb(82, 143, 35);
-  }
+    /* homepage */
 
+    div.homepage {
+        margin: 25px 25px;
+    }
 
-} */
+    div.homepage div.menu {
+        width: 25%;
+        height: 100vh;
+        float: left;
+        overflow: visible;
+    }
+
+    div.homepage div.menu div.text {
+        position: fixed;
+    }
+
+    div.homepage div.menu div.text a {
+        text-decoration: none;
+        color: #111111;
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    div.homepage div.content {
+        width: 75%;
+        position: relative;
+    }
+
+    div.homepage div.content img {
+        height: 150px;
+        position: absolute;
+        transform: translateX(170px);
+        filter: brightness(1);
+    }
+
+    div.homepage div.content img.project1 {
+        top: 0px;
+        left: 0px;
+    }
+
+    div.homepage div.content img.project2 {
+        top: 60px;
+        left: 150px;
+    }
+
+    div.homepage div.content img.project3 {
+        top: 120px;
+        left: 300px;
+    }
+
+    div.homepage div.content img.project4 {
+        top: 180px;
+        left: 450px;
+    }
+
+    /* about me page */
+
+    div.homepage div.about-text {
+        width: 100%;
+    }
+
+    div.homepage p.credits {
+        font-size: 14px;
+        font-weight: 250;
+        margin-top: 350px;
+    }
+
+    div.homepage div.about-text p {
+        width: 100%;
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    div.homepage div.about-text a.links {
+        text-decoration: underline;
+        color: #111111;
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    /* individual projects page */
+
+    div.homepage div.description {
+        width: 20%;
+        position: fixed;
+        bottom: 35px;
+        left: 25px;
+        text-align: left;
+    }
+
+    div.homepage div.description p {
+        font-size: 16px;
+        font-weight: 300;
+        text-align: left;
+    }
+
+    div.homepage div.description a.button {
+        text-decoration: none;
+        color: #111111;
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+    div.homepage div.projects {
+        width: 75%;
+        float: left;
+        margin-bottom: 25px;
+    }
+
+    div.homepage div.projects img {
+        margin-bottom: 25px;
+    }
+
+    div.homepage div.projects video {
+        margin-bottom: 25px;
+    }
+
+    div.homepage div.projects textarea {
+        font-family: 'Comrade Display';
+        font-size: 80px;
+        color: #f4f4f0;
+        background-color: #cd140b;
+        border: none;
+        padding: 30px 30px;
+        resize: none;
+        max-width: 1020px;
+        height: 400px;
+        outline: none;
+        box-sizing: border-box;
+    }
+}
 
 /* homepage */
 
