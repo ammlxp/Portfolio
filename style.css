@@ -16,6 +16,10 @@ body {
     cursor: url('./Images/BlueDot.svg') 10 10, auto;
 }
 
+a {
+    cursor: url('./Images/BlueDot.svg') 10 10, auto;
+}
+
 /* portrait mode for phones */
 
 @media only screen and (max-width: 480px) and (orientation: portrait) {
