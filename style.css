@@ -33,6 +33,10 @@ body {
         overflow: visible;
     }
 
+    div.homepage div.menu p.text {
+        position: fixed;
+    }
+
     div.homepage div.content {
         width: 75%;
     }
@@ -91,63 +95,60 @@ body {
 
     /* individual projects page */
 
-    .description {
-        width: 20%;
-        position: fixed;
-        bottom: 35px;
-        left: 25px;
+    div.homepage div.description {
+        width: 100%;
+        position: relative;
+        bottom: 0px;
+        left: 0px;
         text-align: left;
     }
 
-    .description p {
-        font-size: 16px;
+    div.homepage div.description p {
+        font-size: 14px;
         font-weight: 300;
         text-align: left;
     }
 
-    .button {
+    div.homepage div.description a.button {
         text-decoration: none;
         color: #111111;
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 300;
     }
 
-    .button:hover {
-        color: #0000FF;   
-    }
-
-    .projects {
-        width: 75%;
+    div.homepage div.projects {
+        width: 100%;
         float: left;
-        margin-bottom: 25px;
+        margin-bottom: 15px;
     }
 
-    .projects img {
-        margin-bottom: 25px;
+    div.homepage div.projects img {
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px;
     }
 
-    .projects video {
-        margin-bottom: 25px;
+    div.homepage div.projects video {
+        position: relative;
+        width: 100%;
+        height: auto; 
+        margin-bottom: 15px;
     }
 
-    textarea {
+    div.homepage div.projects textarea {
         font-family: 'Comrade Display';
-        font-size: 80px;
+        font-size: 30px;
         color: #f4f4f0;
         background-color: #cd140b;
         border: none;
-        padding: 30px 30px;
+        padding: 10px 10px;
         resize: none;
-        max-width: 1020px;
-        height: 400px;
+        max-width: 100%;
+        height: 100px;
         outline: none;
         box-sizing: border-box;
     }
-
-    textarea::placeholder {
-        color: #f4f4f0;
-    }
-
 }
 
 /* landscape mode for phones */
