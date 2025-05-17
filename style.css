@@ -20,42 +20,6 @@ body {
 
 @media only screen and (max-width: 480px) and (orientation: portrait) {
 
-    /* div.homepage div.menu {
-        width: 100%;
-        height: 60px;
-        float: left;
-        overflow: hidden;
-    }      
-
-    div.homepage div.content {
-        width: 100%;
-        height: 500px;
-    }
-
-    div.homepage div.content img {
-        position: static;
-    }
-
-    div.homepage div.content .project1 {
-        top: 0px;
-        left: 0px;
-    }
-
-    div.homepage div.content .project2 {
-        top: 0px;
-        left: 0px;
-    }
-
-    div.homepage div.content .project3 {
-        top: 0px;
-        left: 0px;
-    }
-
-    div.homepage div.content .project4 {
-        top: 0px;
-        left: 0px;
-    } */
-
     /* homepage */
 
     div.homepage {
@@ -71,8 +35,6 @@ body {
 
     div.homepage div.content {
         width: 75%;
-        position: fixed;
-        bottom: 40px;
     }
 
     div.homepage div.content img {
