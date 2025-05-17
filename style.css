@@ -107,6 +107,12 @@ body {
         font-size: 14px;
         font-weight: 300;
         text-align: left;
+        margin-top: 10px;
+        margin-bottom: 10px
+    }
+
+    div.homepage div.description a.links {
+        font-size: 14px;
     }
 
     div.homepage div.description a.button {
@@ -218,21 +224,21 @@ body {
     }
 
     div.homepage p.credits {
-        font-size: 14px;
+        font-size: 10px;
         font-weight: 250;
-        margin-top: 350px;
+        margin-top: 150px;
     }
 
     div.homepage div.about-text p {
-        width: 100%;
-        font-size: 14px;
+        width: 70%;
+        font-size: 10px;
         font-weight: 300;
     }
 
     div.homepage div.about-text a.links {
         text-decoration: underline;
         color: #111111;
-        font-size: 14px;
+        font-size: 10px;
         font-weight: 300;
     }
 
@@ -241,48 +247,58 @@ body {
     div.homepage div.description {
         width: 20%;
         position: fixed;
-        bottom: 35px;
+        bottom: 15px;
         left: 25px;
         text-align: left;
     }
 
     div.homepage div.description p {
-        font-size: 16px;
+        font-size: 10px;
         font-weight: 300;
         text-align: left;
+        margin-top: 5px;
+        margin-bottom: 5px
+    }
+
+    div.homepage div.description a.links {
+        font-size: 10px;
     }
 
     div.homepage div.description a.button {
         text-decoration: none;
         color: #111111;
-        font-size: 24px;
+        font-size: 15px;
         font-weight: 300;
     }
 
     div.homepage div.projects {
         width: 75%;
         float: left;
-        margin-bottom: 25px;
+        margin-bottom: 15px;
     }
 
     div.homepage div.projects img {
-        margin-bottom: 25px;
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px;
     }
 
     div.homepage div.projects video {
-        margin-bottom: 25px;
+        width: 100%;
+        height: auto; 
+        margin-bottom: 15px;
     }
 
     div.homepage div.projects textarea {
         font-family: 'Comrade Display';
-        font-size: 80px;
+        font-size: 50px;
         color: #f4f4f0;
         background-color: #cd140b;
         border: none;
         padding: 30px 30px;
         resize: none;
-        max-width: 1020px;
-        height: 400px;
+        max-width: 100%;
+        height: 200px;
         outline: none;
         box-sizing: border-box;
     }
@@ -400,6 +416,8 @@ body {
     font-size: 16px;
     font-weight: 300;
     text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px
 }
 
 .button {
