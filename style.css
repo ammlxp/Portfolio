@@ -380,25 +380,25 @@ a {
     transition: 0.3s;
 }
 
-.project1 {
+.upperroom {
     top: 0px;
     left: 0px;
     z-index: 4;
 }
 
-.project2 {
+.collab {
     top: 100px;
     left: 150px;
     z-index: 3;
 }
 
-.project3 {
+.truth {
     top: 200px;
     left: 250px;
     z-index: 2;
 }
 
-.project4 {
+.comrade {
     top: 300px;
     left: 350px;
     z-index: 1;
