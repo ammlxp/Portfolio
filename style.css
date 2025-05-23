@@ -387,21 +387,21 @@ a {
 }
 
 .collab {
-    top: 100px;
-    left: 150px;
-    z-index: 3;
-}
-
-.truth {
     top: 200px;
     left: 250px;
     z-index: 2;
 }
 
-.comrade {
+.truth {
     top: 300px;
     left: 350px;
     z-index: 1;
+}
+
+.comrade {
+    top: 100px;
+    left: 150px;
+    z-index: 3;
 }
 
 /* about me page */
