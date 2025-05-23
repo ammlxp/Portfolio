@@ -8,6 +8,11 @@
     src: url('./fonts/Comrade-Display.woff') format('woff');
 }
 
+@font-face {
+    font-family: 'UpperRoom';
+    src: url('./fonts/UpperRoom-Regular.ttf') format('truetype');
+}
+
 body {
     background-color: rgb(250, 250, 250);
     margin: 0px;
@@ -482,11 +487,25 @@ a {
   height: 100%;
 }
 
-textarea {
+textarea .testComrade {
     font-family: 'Comrade Display';
     font-size: 80px;
     color: #f4f4f0;
     background-color: #cd140b;
+    border: none;
+    padding: 30px 30px;
+    resize: none;
+    max-width: 1020px;
+    height: 400px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+textarea .testUpperroom {
+    font-family: 'UpperRoom';
+    font-size: 80px;
+    color: #f4f4f0;
+    background-color: #060606;
     border: none;
     padding: 30px 30px;
     resize: none;
