@@ -473,46 +473,45 @@ a {
 }
 
 .vimeo-wrapper {
-  width: 1020px;
-  margin-bottom: 25px;
-  position: relative;
-  padding-top: 39.06%; /* Aspect ratio (based on original setup) */
+    width: 1020px;
+    margin-bottom: 25px;
+    position: relative;
+    padding-top: 39.06%; /* Aspect ratio (based on original setup) */
 }
 
 .vimeo-wrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
-textarea .testComrade {
+/* textareas style  */
+
+textarea {
+    color: #f4f4f0;
+    border: none;
+    padding: 30px 30px;
+    outline: none;
+    resize: none;
+    box-sizing: border-box;
+    height: 400px;
+    width: 100%;
+}
+
+.testComrade {
     font-family: 'Comrade Display';
     font-size: 80px;
-    color: #f4f4f0;
     background-color: #cd140b;
-    border: none;
-    padding: 30px 30px;
-    resize: none;
     max-width: 1020px;
-    height: 400px;
-    outline: none;
-    box-sizing: border-box;
 }
 
-textarea .testUpperroom {
+.testUpperroom {
     font-family: 'UpperRoom';
     font-size: 80px;
-    color: #f4f4f0;
     background-color: #060606;
-    border: none;
-    padding: 30px 30px;
-    resize: none;
     max-width: 1020px;
-    height: 400px;
-    outline: none;
-    box-sizing: border-box;
 }
 
 textarea::placeholder {
