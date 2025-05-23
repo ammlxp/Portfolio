@@ -59,22 +59,22 @@ a {
         filter: brightness(1);
     }
 
-    div.homepage div.content img.project1 {
+    div.homepage div.content img.upperroom {
         top: 0px;
         left: 0px;
     }
 
-    div.homepage div.content img.project2 {
+    div.homepage div.content img.comrade {
         top: 10px;
         left: 15px;
     }
 
-    div.homepage div.content img.project3 {
+    div.homepage div.content img.collab {
         top: 20px;
         left: 30px;
     }
 
-    div.homepage div.content img.project4 {
+    div.homepage div.content img.truth {
         top: 30px;
         left: 45px;
     }
@@ -164,10 +164,8 @@ a {
     }
 
     div.homepage div.projects textarea {
-        font-family: 'Comrade Display';
         font-size: 30px;
         color: #f4f4f0;
-        background-color: #cd140b;
         border: none;
         padding: 10px 10px;
         resize: none;
@@ -175,6 +173,11 @@ a {
         height: 100px;
         outline: none;
         box-sizing: border-box;
+    }
+
+    div.homepage div.projects textarea.testUpperroom {
+        font-family: 'UpperRoom';
+        background-color: #060606;
     }
 }
 
@@ -218,22 +221,22 @@ a {
         filter: brightness(1);
     }
 
-    div.homepage div.content img.project1 {
+    div.homepage div.content img.upperroom {
         top: 0px;
         left: 0px;
     }
 
-    div.homepage div.content img.project2 {
+    div.homepage div.content img.comrade {
         top: 60px;
         left: 150px;
     }
 
-    div.homepage div.content img.project3 {
+    div.homepage div.content img.collab {
         top: 120px;
         left: 300px;
     }
 
-    div.homepage div.content img.project4 {
+    div.homepage div.content img.truth {
         top: 180px;
         left: 450px;
     }
@@ -321,10 +324,8 @@ a {
     }
 
     div.homepage div.projects textarea {
-        font-family: 'Comrade Display';
         font-size: 50px;
         color: #f4f4f0;
-        background-color: #cd140b;
         border: none;
         padding: 30px 30px;
         resize: none;
@@ -332,6 +333,11 @@ a {
         height: 200px;
         outline: none;
         box-sizing: border-box;
+    }
+
+    div.homepage div.projects textarea.testUpperroom {
+        font-family: 'UpperRoom';
+        background-color: #060606;
     }
 }
 
