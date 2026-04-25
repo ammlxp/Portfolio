@@ -59,24 +59,34 @@ a {
         filter: brightness(1);
     }
 
-    div.homepage div.content img.upperroom {
+    div.homepage div.content img.diss {
         top: 0px;
         left: 0px;
     }
 
-    div.homepage div.content img.comrade {
+    div.homepage div.content img.piedtype {
         top: 10px;
         left: 15px;
     }
 
-    div.homepage div.content img.collab {
+    div.homepage div.content img.krump {
         top: 20px;
         left: 30px;
     }
 
-    div.homepage div.content img.krump {
+    div.homepage div.content img.upperroom {
         top: 30px;
         left: 45px;
+    }
+
+    div.homepage div.content img.comrade {
+        top: 40px;
+        left: 60px;
+    }
+
+    div.homepage div.content img.collab {
+        top: 50px;
+        left: 75px;
     }
 
     /* about me page */
@@ -132,6 +142,7 @@ a {
         color: #111111;
         font-size: 20px;
         font-weight: 300;
+        padding-bottom: 20px;
     }
 
     div.homepage div.projects {
@@ -221,24 +232,33 @@ a {
         filter: brightness(1);
     }
 
-    div.homepage div.content img.upperroom {
+    div.homepage div.content img.diss {
         top: 0px;
         left: 0px;
     }
 
-    div.homepage div.content img.comrade {
-        top: 60px;
-        left: 150px;
-    }
-
-    div.homepage div.content img.collab {
-        top: 120px;
-        left: 300px;
+    div.homepage div.content img.piedtype {
+        top: 50px;
+        left: 100px;
     }
 
     div.homepage div.content img.krump {
-        top: 180px;
-        left: 450px;
+        top: 100px;
+        left: 150px;
+    }
+
+    div.homepage div.content img.upperroom {
+        top: 150px;
+        left: 200px;
+    }
+
+    div.homepage div.content img.comrade {
+        top: 200px;
+        left: 250px;
+    }
+    div.homepage div.content img.collab {
+        top: 250px;
+        left: 300px;
     }
 
     /* about me page */
