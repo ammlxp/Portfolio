@@ -14,7 +14,7 @@
 }
 
 body {
-    background-color: rgb(250, 250, 250);
+    background-color: rgb(240, 243, 248);
     margin: 0px;
     padding: 0px;
     font-family: 'Space-Grotesk';
@@ -74,7 +74,7 @@ a {
         left: 30px;
     }
 
-    div.homepage div.content img.truth {
+    div.homepage div.content img.krump {
         top: 30px;
         left: 45px;
     }
@@ -236,7 +236,7 @@ a {
         left: 300px;
     }
 
-    div.homepage div.content img.truth {
+    div.homepage div.content img.krump {
         top: 180px;
         left: 450px;
     }
@@ -386,28 +386,40 @@ a {
     transition: 0.3s;
 }
 
-.upperroom {
+.diss {
     top: 0px;
     left: 0px;
+    z-index: 6;
+}
+
+.piedtype {  
+    top: 75px;
+    left: 125px;
+    z-index: 5;
+}
+
+.krump {
+    top: 150px;
+    left: 200px;
     z-index: 4;
 }
 
-.collab {
-    top: 200px;
-    left: 250px;
-    z-index: 2;
-}
-
-.truth {
-    top: 300px;
-    left: 350px;
-    z-index: 1;
+.upperroom {  
+    top: 225px;
+    left: 275px;
+    z-index: 3;
 }
 
 .comrade {
-    top: 100px;
-    left: 150px;
-    z-index: 3;
+    top: 300px;
+    left: 350px;
+    z-index: 2;
+}
+
+.collab {
+    top: 375px;
+    left: 425px;
+    z-index: 1;
 }
 
 /* accessibility projects breakdown */
