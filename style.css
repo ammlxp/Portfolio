@@ -64,29 +64,34 @@ a {
         left: 0px;
     }
 
+    div.homepage div.content img.flaxman {
+        top: 0px;
+        left: 40px;
+    }
+
     div.homepage div.content img.piedtype {
-        top: 10px;
-        left: 15px;
+        top: 0px;
+        left: 0px;
     }
 
     div.homepage div.content img.diss {
-        top: 20px;
-        left: 30px;
+        top: 0px;
+        left: 40px;
     }
 
     div.homepage div.content img.upperroom {
-        top: 30px;
-        left: 45px;
+        top: 0px;
+        left: 0px;
     }
 
     div.homepage div.content img.comrade {
-        top: 40px;
-        left: 60px;
+        top: 0px;
+        left: 40px;
     }
 
     div.homepage div.content img.collab {
-        top: 50px;
-        left: 75px;
+        top: 0px;
+        left: 0px;
     }
 
     /* about me page */
