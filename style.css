@@ -13,6 +13,11 @@
     src: url('./fonts/UpperRoom-Regular.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'flaxman inked';
+    src: url('./fonts/flaxman-inked.ttf') format('truetype');
+}
+
 body {
     background-color: rgb(240, 243, 248);
     margin: 0px;
@@ -590,6 +595,18 @@ textarea {
     font-size: 80px;
     background-color: #060606;
     max-width: 1020px;
+}
+
+.testflaxman {
+    font-family: 'flaxman inked';
+    font-size: 80px;
+    background-color: #fcfcf2;
+    color: #060606;
+    max-width: 1020px;
+}
+
+textarea.testflaxman::placeholder {
+    color: #060606;
 }
 
 textarea::placeholder {
