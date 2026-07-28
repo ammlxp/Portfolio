@@ -23,12 +23,12 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Space-Grotesk';
-    cursor: url('./Images/BlueDot.svg') 10 10, auto;
+    /* cursor: url('./Images/BlueDot.svg') 10 10, auto; */
 }
 
-a {
+/* a {
     cursor: url('./Images/BlueDot.svg') 10 10, auto;
-}
+} */
 
 /* portrait mode for phones */
 
@@ -611,4 +611,59 @@ textarea.testflaxman::placeholder {
 
 textarea::placeholder {
     color: #f4f4f0;
+}
+
+/* dance portfolio side*/
+
+button.dance {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+    z-index: 100;
+}
+
+.dance p {
+    position: fixed;
+    width: 15%;
+    color: #111111;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.dncvimeo-wrapper {
+    /* width: 1800px; */
+    margin-bottom: 25px;
+    position: relative;
+    padding-top: 39.06%; /* Aspect ratio (based on original setup) */
+}
+
+.dncvimeo-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.dncprojects {
+    width: 75%;
+    float: left;
+    margin-bottom: 25px;
+}
+
+.dncprojects img {
+    margin-bottom: 25px;
+}
+
+.dncprojects p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: normal;
 }
