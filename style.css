@@ -378,7 +378,7 @@ body {
 }
 
 .menu {
-    width: 25%;
+    width: 22%;
     height: 100vh;
     float: left;
     overflow: hidden;
@@ -405,7 +405,7 @@ body {
 }
 
 .content {
-    width: 75%;
+    width: 73%;
     position: relative;
 }
 
@@ -555,14 +555,30 @@ body {
     margin-bottom: 25px;
 }
 
-.vimeo-wrapper {
+.cmrvimeo {
     width: 1020px;
     margin-bottom: 25px;
     position: relative;
     padding-top: 39.06%; /* Aspect ratio (based on original setup) */
 }
 
-.vimeo-wrapper iframe {
+.cmrvimeo iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.ptvimeo {
+    width: 1020px;
+    margin-bottom: 25px;
+    position: fixed;
+    top: 0;
+    padding-top: 70%; /* Aspect ratio (based on original setup) */
+}
+
+.ptvimeo iframe {
     position: absolute;
     top: 0;
     left: 0;
@@ -615,11 +631,12 @@ textarea::placeholder {
 
 /* dance portfolio side*/
 
+
+
 button.dance {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background-color: blue;
     border: none;
     cursor: pointer;
     position: fixed;
@@ -631,39 +648,39 @@ button.dance {
 .dance p {
     position: fixed;
     width: 15%;
-    color: #111111;
-    font-size: 18px;
+    color: #f4f4f0;
+    font-size: 24px;
     font-weight: 300;
-    margin-top: 10px;
-}
-
-.dncvimeo-wrapper {
-    /* width: 1800px; */
-    margin-bottom: 25px;
-    position: relative;
-    padding-top: 39.06%; /* Aspect ratio (based on original setup) */
-}
-
-.dncvimeo-wrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    bottom: 50px;
 }
 
 .dncprojects {
     width: 75%;
     float: left;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
+    color: #f4f4f0;
 }
 
-.dncprojects img {
-    margin-bottom: 25px;
+.dncvimeo {
+    margin-bottom: 20px;
+    position: relative;
+    aspect-ratio: 16 / 9;
+}
+
+.dncvimeo iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 
 .dncprojects p {
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 300;
+    margin-left: 10px;
+    margin-bottom: 50px;
     line-height: normal;
+    text-align: center;
 }
